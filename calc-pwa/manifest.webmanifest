@@ -3,5 +3,12 @@
 	"display" : "standalone",
 	"description" : "simple calc to test PWA",
 	"start_url": ".",
-	"background_color": "#d0d0d0"
+	"background_color": "#d0d0d0",
+	"icons": [
+		{
+		  "src": "/calc-pwa/calc-pwa.png",
+		  "type": "image/png",
+		  "sizes": "144x144"
+		}
+	]
 }
