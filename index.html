@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator PWA</title>
+    <link rel="canonical" href="https://petercamfield.github.io/calc-pwa/" />
+    <link rel="manifest" href="/manifest.webmanifest">
+<style type="text/css">
+    *{
+      background-color: #F5F4F0;
+      font-family: Georgia, serif;
+    }
+    </style>
+</head>
+<body>
+  <h1>Content</h1>
+  <script>
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/calc-pwa/sw.js', {scope: '/calc-pwa/'})
+  }
+  
+  Calculator PWA
+  </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+	"name" : "calc-pwa",
+	"display" : "standalone",
+	"description" : "simple calc to test PWA",
+	"start_url": ".",
+	"background_color": "#d0d0d0"
+}
